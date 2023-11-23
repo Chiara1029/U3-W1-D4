@@ -71,7 +71,7 @@ fetch("https://mocki.io/v1/765b2daf-41d5-4e94-a0d5-abd918f57b8f")
 
     console.log("Array restituito da map: ", clothes)
 
-    clothes.forEach((clothes) => {
+    clothes.forEach((clothes:any) => {
         console.log("Capo: ", clothes.capo)
         console.log("Saldo: ", clothes.getSaldoCapo())
         console.log("Totale capo: ", clothes.getAcquistoCapo())
